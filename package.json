@@ -1,7 +1,7 @@
 {
   "name": "fuzzysearch-ts",
   "description": "Tiny and blazing-fast fuzzy search in TypeScript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/helyo-world/fuzzysearch-ts",
   "contributors": [
     {
@@ -16,16 +16,18 @@
     }
   ],
   "license": "MIT",
-  "main": "index.ts",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/helyo-world/fuzzysearch-ts.git"
   },
   "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build",
     "test": "tslint -c tslint.json 'index.ts' && tape test/*.js"
   },
   "devDependencies": {
-    "tape": "^3.5.0",
+    "tape": "^4.11.0",
     "tslint": "^5.18.0",
     "typescript": "^3.5.2"
   }

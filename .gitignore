@@ -1,1 +1,10 @@
+# NPM
 node_modules
+
+# Generated files
+/index.js
+*.map
+
+# OS files
+.DS_Store
+Thumbs.db
