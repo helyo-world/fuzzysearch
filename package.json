@@ -1,23 +1,30 @@
 {
   "name": "fuzzysearch",
   "description": "Tiny and blazing-fast fuzzy search in JavaScript",
-  "version": "1.0.3",
-  "homepage": "https://github.com/bevacqua/fuzzysearch",
-  "author": {
-    "name": "Nicolas Bevacqua",
-    "email": "ng@bevacqua.io",
-    "url": "http://bevacqua.io"
-  },
+  "version": "1.0.0",
+  "homepage": "https://github.com/helyo-world/fuzzysearch",
+  "contributors": [
+    {
+      "name": "Nicolas Bevacqua",
+      "email": "ng@bevacqua.io",
+      "url": "http://bevacqua.io"
+    },
+    {
+      "name": "Corentin Hatte",
+      "email": "contact@corentin-hatte.eu",
+      "url": "https://www.corentin-hatte.eu"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bevacqua/fuzzysearch.git"
+    "url": "git://github.com/helyo-world/fuzzysearch.git"
   },
   "scripts": {
-    "test": "jshint . && tape test/*.js"
+    "test": "tslint -c tslint.json 'index.ts'"
   },
   "devDependencies": {
-    "jshint": "^2.6.0",
-    "tape": "^3.5.0"
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
   }
 }
