@@ -21,9 +21,10 @@
     "url": "git://github.com/helyo-world/fuzzysearch.git"
   },
   "scripts": {
-    "test": "tslint -c tslint.json 'index.ts'"
+    "test": "tslint -c tslint.json 'index.ts' && tape test/*.js"
   },
   "devDependencies": {
+    "tape": "^3.5.0",
     "tslint": "^5.18.0",
     "typescript": "^3.5.2"
   }
