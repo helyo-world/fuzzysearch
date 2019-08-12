@@ -1,7 +1,7 @@
 {
   "name": "fuzzysearch-ts",
   "description": "Tiny and blazing-fast fuzzy search in TypeScript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/helyo-world/fuzzysearch-ts",
   "contributors": [
     {
@@ -16,6 +16,7 @@
     }
   ],
   "license": "MIT",
+  "main": "index.ts",
   "repository": {
     "type": "git",
     "url": "git://github.com/helyo-world/fuzzysearch-ts.git"
