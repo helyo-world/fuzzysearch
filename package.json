@@ -1,8 +1,8 @@
 {
-  "name": "fuzzysearch",
-  "description": "Tiny and blazing-fast fuzzy search in JavaScript",
+  "name": "fuzzysearch-ts",
+  "description": "Tiny and blazing-fast fuzzy search in TypeScript",
   "version": "1.0.0",
-  "homepage": "https://github.com/helyo-world/fuzzysearch",
+  "homepage": "https://github.com/helyo-world/fuzzysearch-ts",
   "contributors": [
     {
       "name": "Nicolas Bevacqua",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/helyo-world/fuzzysearch.git"
+    "url": "git://github.com/helyo-world/fuzzysearch-ts.git"
   },
   "scripts": {
     "test": "tslint -c tslint.json 'index.ts' && tape test/*.js"
