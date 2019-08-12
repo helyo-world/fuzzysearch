@@ -1,4 +1,4 @@
-export default function fuzzysearch (needle, haystack) {
+export default function fuzzysearch (needle: string, haystack: string) {
 	const hlen = haystack.length;
 	const nlen = needle.length;
 	if (nlen > hlen) {
