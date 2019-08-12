@@ -1,8 +1,12 @@
 # fuzzysearch
 
-> Tiny and blazing-fast fuzzy search in JavaScript
+> Tiny and blazing-fast fuzzy search in TypeScript
 
 Fuzzy searching allows for flexibly matching a string with partial input, useful for filtering data very quickly based on lightweight user input.
+
+# Original Code
+
+The code has been copied from [bevacqua/fuzzysearch](https://github.com/bevacqua/fuzzysearch). I merely moved the JS to TypeScript format for use in an ES6-compatible build.
 
 # Demo
 
@@ -13,7 +17,7 @@ To see `fuzzysearch` in action, head over to [bevacqua.github.io/horsey][3], whi
 From `npm`
 
 ```shell
-npm install --save fuzzysearch
+npm install --save fuzzysearch-ts
 ```
 
 # `fuzzysearch(needle, haystack)`
